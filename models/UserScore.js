@@ -6,4 +6,6 @@ const UserScore = sequelize.define("UserScore", {
     score: { type: DataTypes.INTEGER, allowNull: false },
 });
 
+// UserScore.sync ()
+
 export default UserScore;
