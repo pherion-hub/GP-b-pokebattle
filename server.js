@@ -14,7 +14,7 @@ const corsOptions = {
   credentials: false, // If you use cookies set to true
 };
 
-app.use(cors(corsOptions));
+app.use(cors());
 
 app.get("/leaderboard", async (req, res) => {
   const leaderboard = await UserScore.findAll();
