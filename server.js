@@ -8,7 +8,7 @@ const port = 5858;
 app.use(express.json());
 
 const corsOptions = {
-  origin: "http://localhost:5173", // Replace this with the URL of your React app
+  origin: "https://pokebattlegame.netlify.app/", // Replace this with the URL of your React app
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   allowedHeaders: "Content-Type,Authorization", // Allowed headers
   credentials: false, // If you use cookies set to true
